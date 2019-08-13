@@ -28,7 +28,7 @@ public class Funcionario {
 		while(i.hasNext()) {
 		/*ADD MESES*/	
 		double[][] ficha = (double[][]) i.next();
-			System.out.println("----JAN------------------FEV------------------MAR-----------------ABR-----------------MAI--------------------JUN-----------------JUL-------------------AGO-----------------SET-------------------OUT----------------------NOV-------------------DEZ--|");
+			System.out.println("|--JAN------------------FEV------------------MAR-----------------ABR-----------------MAI--------------------JUN-----------------JUL-------------------AGO-----------------SET-------------------OUT----------------------NOV-------------------DEZ--|");
 			for(int l = 0; l < 8; l++) {
 				for(int c = 0; c < 12; c++) {
 				System.out.printf(" -- %.2f %d-%d", ficha[l][c], l, c);
@@ -37,7 +37,7 @@ public class Funcionario {
 				System.out.print("\n");
 			
 			}
-		System.out.println("\n----------------------");
+		System.out.println("\n FIM DA FICHA Nº"+ fichas.indexOf(i));
 		
 		}
 		
