@@ -28,17 +28,16 @@ public class Funcionario {
 		while(i.hasNext()) {
 			
 		double[][] ficha = (double[][]) i.next();
-			
+			System.out.println("----JAN------------------FEV------------------MAR-----------------ABR-----------------MAI--------------------JUN-----------------JUL-------------------AGO-----------------SET-------------------OUT----------------------NOV-------------------DEZ--|");
 			for(int l = 0; l < 8; l++) {
 				for(int c = 0; c < 12; c++) {
-				System.out.println("Linha "+l+ " Coluna "+c+" "+ficha[l][c]);
+				System.out.printf(" -- %.2f %d-%d", ficha[l][c], l, c);
+				System.out.print(" --+-- ");
 				}
-			
+				System.out.print("\n");
 			
 			}
-		
-		i.next();
-		System.out.println("----------------------");
+		System.out.println("\n----------------------");
 		
 		}
 		
