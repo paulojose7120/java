@@ -26,7 +26,7 @@ public class Funcionario {
 		Iterator i = fichas.iterator();
 		
 		while(i.hasNext()) {
-			
+		/*ADD MESES*/	
 		double[][] ficha = (double[][]) i.next();
 			System.out.println("----JAN------------------FEV------------------MAR-----------------ABR-----------------MAI--------------------JUN-----------------JUL-------------------AGO-----------------SET-------------------OUT----------------------NOV-------------------DEZ--|");
 			for(int l = 0; l < 8; l++) {
